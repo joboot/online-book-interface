@@ -6,6 +6,7 @@ import React from "react";
 import PageOne from './pages/PageOne';
 import DefaultPage from './components/DefaultPage';
 import NavRoutes from './components/NavRoutes';
+// import Footer from './components/FooterComp';
 
 
 function App() {
