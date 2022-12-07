@@ -2,9 +2,6 @@ import React, { useState } from 'react'
 import { Form, Button, Container } from 'react-bootstrap'
 import { useNavigate } from "react-router-dom";
 
-
-
-
 const SignIn = () => {
   const navigate = useNavigate();
 
@@ -13,7 +10,7 @@ const SignIn = () => {
 
   const onSubmit = () => {
 		console.log("Sign in button");
-		navigate("../home")
+		navigate("./home")
 	};
 
   return (
