@@ -58,7 +58,7 @@ return (
 					marginLeft: "200px",
 					color: "green" }}
 		>
-			GeeksforGeeks
+			Programming for Dumb Dumb's
 		</h1>
 		</Nav>
 		<SidebarNav sidebar={sidebar}>
