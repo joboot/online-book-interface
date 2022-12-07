@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import Header from './TopBarComp'
+// import Header from './TopBarComp'
 import Sidebar from './SidebarComp'
 import PageOne from '../pages/PageOne'
 
@@ -12,7 +12,7 @@ export default class DefaultPage extends Component {
         <Container fluid>
             <Row >
                 <Col>
-                 <Header/>
+                 {/* <Header/> */}
                 </Col>
             </Row>
             <Row>
