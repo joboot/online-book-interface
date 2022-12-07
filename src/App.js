@@ -16,7 +16,7 @@ function App() {
         {<Sidebar/>}
         {<SignIn/>}
         {<PageOne/>}
-        <DefaultPage/>
+        {/* <DefaultPage/> */}
         
       </div>
     </Router>
