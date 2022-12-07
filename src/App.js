@@ -13,9 +13,9 @@ function App() {
     <Router>
       <div className="App">  
         {/* <Header/> */}
-        {/* <Sidebar/> */}
-        {/* <SignIn/> */}
-        {/* <PageOne/> */}
+        {<Sidebar/>}
+        {<SignIn/>}
+        {<PageOne/>}
         <DefaultPage/>
         
       </div>
