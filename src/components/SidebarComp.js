@@ -56,7 +56,7 @@ return (
 		<h1
 			style={{ textAlign: "center",
 					marginLeft: "200px",
-					color: "green" }}
+					color: "#1E90FF" }}
 		>
 			Programming for Dumb Dumb's
 		</h1>
