@@ -16,9 +16,9 @@ function App() {
         {<NavRoutes/>}
         {/* <Header/> */}
         {<Sidebar/>}
-        {<SignIn/>}
-        {<PageOne/>}
-        {/* <DefaultPage/> */}
+        {/* {<SignIn/>} */}
+        {/* {<PageOne/>} */}
+        {<DefaultPage Page = {<SignIn/>}/>}
         
       </div>
     </Router>

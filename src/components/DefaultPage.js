@@ -5,24 +5,23 @@ import Sidebar from './SidebarComp'
 import PageOne from '../pages/PageOne'
 import SignIn from '../pages/SignIn'
 
-
-export default class DefaultPage extends Component {
-  render() {
-    return (
-      <div>
-        <Container fluid>
-            <Row >
-                <Col>
-                 {/* <Header/> */}
-                </Col>
-            </Row>
-            <Row>
-                {/* <Col md="auto"><Sidebar/></Col>
-                <Col md="auto"><PageOne/></Col> */}
-                <Col md="auto"><SignIn/></Col>
-            </Row>
-        </Container>
-      </div>
-    )
-  }
+const DefaultPage = ({Page}) => {
+  return (
+    <div>
+      <Container fluid>
+          <Row >
+              <Col>
+              {/* <Header/> */}
+              </Col>
+          </Row>
+          <Row>
+              {/* <Col md="auto"><Sidebar/></Col>
+              <Col md="auto"><PageOne/></Col> */}
+              {/* <Col md="auto"><SignIn/></Col> */}
+              <Col md="auto">{Page}</Col>
+          </Row>
+      </Container>
+    </div>
+  )
 }
+export default DefaultPage;
