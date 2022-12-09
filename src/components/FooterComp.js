@@ -13,12 +13,9 @@ const Footer = () => {
       >
         <CDBBox display="flex" alignItems="center">
           <a href="/" className="d-flex align-items-center p-0 text-dark">
-             <img
-              alt="logo"
-              src= "./images/logoDuck.png"
-              width="30px"
-            />
-            <span className="ml-4 h5 mb-0 font-weight-bold">Devwares</span>
+             <img src = "images/logoDuck.png"  alt="logo" width="30px" />
+           
+            <span className="ml-4 h5 mb-0 font-weight-bold">Dumb Dumb's</span>
           </a>
         </CDBBox>
         <CDBBox>
