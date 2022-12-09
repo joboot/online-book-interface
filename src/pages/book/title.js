@@ -9,7 +9,7 @@ const Title = () => {
             <h1>
                 Programming for Dumb Dumbs
             </h1>
-            <img src={require("../images/.png")} width="500px" alt="Title Page with Rubber Duck"/>
+            <img src={require("../../images/duck.png")} width="500px" alt="Title Page with Rubber Duck"/>
         </div>
     );
 };
