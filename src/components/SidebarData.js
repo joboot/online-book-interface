@@ -22,19 +22,37 @@ export const SidebarData = [
 	subNav: [
 	{
 		title: "Intro",
-		path: "/book/intro",
+		path: "../pages/book/intro",
 		icon: <IoIcons.IoIosPaper />,
 		cName: "sub-nav",
 	},
 	{
-		title: "Chapter 1",
-		path: "/book/chapter1p1",
+		title: "Chapter 1: Hello World",
+		path: "../pages/book/chapter1p1",
 		icon: <IoIcons.IoIosPaper />,
+		icon: <IoIcons.IoIosPaper />,
+		iconClosed: <RiIcons.RiArrowDownSFill />,
+		iconOpened: <RiIcons.RiArrowUpSFill />,
 		cName: "sub-nav",
+
+		subNav: [
+			{
+				title: "Being able to code",
+				path: "../pages/book/chapter1p1",
+				icon: <IoIcons.IoIosPaper />,
+				cName: "sub-nav",
+			},
+			{
+				title: "\"Hello World\"",
+				path: "../pages/book/chapter1p2",
+				icon: <IoIcons.IoIosPaper />,
+				cName: "sub-nav",
+			}
+		]
 	},
 	{
-		title: "Chapter 2",
-		path: "/book/chapter2p1",
+		title: "Chapter 2: Tips and Tricks",
+		path: "../pages/book/chapter2p1",
 		icon: <IoIcons.IoIosPaper />,
 	},
 	],
@@ -46,6 +64,7 @@ export const SidebarData = [
 	icon: <FaIcons.FaPhone />,
 },
 */
+/*
 {
 	title: "Events",
 	path: "/events",
@@ -67,6 +86,7 @@ export const SidebarData = [
 	},
 	],
 },
+*/
 {
 	title: "Support",
 	path: "/support",
