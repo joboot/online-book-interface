@@ -13,37 +13,39 @@ export const SidebarData = [
 	iconOpened: <RiIcons.RiArrowUpSFill />,
 },
 {
-	title: "Services",
-	path: "/services",
+	title: "Textbook",
+	path: "/book/title",
 	icon: <IoIcons.IoIosPaper />,
 	iconClosed: <RiIcons.RiArrowDownSFill />,
 	iconOpened: <RiIcons.RiArrowUpSFill />,
 
 	subNav: [
 	{
-		title: "Service 1",
-		path: "/services/services1",
+		title: "Intro",
+		path: "/book/intro",
 		icon: <IoIcons.IoIosPaper />,
 		cName: "sub-nav",
 	},
 	{
-		title: "Service 2",
-		path: "/services/services2",
+		title: "Chapter 1",
+		path: "/book/chapter1p1",
 		icon: <IoIcons.IoIosPaper />,
 		cName: "sub-nav",
 	},
 	{
-		title: "Service 3",
-		path: "/services/services3",
+		title: "Chapter 2",
+		path: "/book/chapter2p1",
 		icon: <IoIcons.IoIosPaper />,
 	},
 	],
 },
+/*
 {
 	title: "Contact",
 	path: "/contact",
 	icon: <FaIcons.FaPhone />,
 },
+*/
 {
 	title: "Events",
 	path: "/events",
