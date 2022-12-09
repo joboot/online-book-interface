@@ -6,23 +6,23 @@ import React from "react";
 import PageOne from './pages/PageOne';
 import DefaultPage from './components/DefaultPage';
 import NavRoutes from './components/NavRoutes';
-import Title from './pages/book/title'
 // import Footer from './components/FooterComp';
 
 
 function App() {
   return (
-    <Router>
-      <div className="App">  
-        {<NavRoutes/>}
-        {/* <Header/> */}
-        {<Sidebar/>}
-        {/* {<SignIn/>} */}
-        {/* {<PageOne/>} */}
-        {<DefaultPage Page = {<SignIn/>}/>}
-        
-      </div>
-    </Router>
+    <div className="App"> 
+      <Router> 
+          {<NavRoutes/>}
+          {/* <Header/> */}
+          {<Sidebar/>}
+          {/* {<SignIn/>} */}
+          {/* {<PageOne/>} */}
+          {<DefaultPage Page = {<SignIn/>}/>}
+      </Router>
+
+      <Footer /> {/* Footer component */}
+    </div>
   );
 }
 
