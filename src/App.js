@@ -8,7 +8,8 @@ import Home from './pages/Home';
 import DefaultPage from './components/DefaultPage';
 import NavRoutes from './components/NavRoutes';
 import Footer from './components/FooterComp';
-
+import Title from './pages/book/title'
+import Intro from './pages/book/intro'
 
 function App() {
   return (
