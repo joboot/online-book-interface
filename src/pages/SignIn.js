@@ -8,9 +8,9 @@ const SignIn = () => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
 
-  const onSubmit = () => {
+  const onSubmit = (path) => {
 		console.log("Sign in button");
-		navigate("./home")
+		navigate(path)
 	};
 
   return (
@@ -41,7 +41,9 @@ const SignIn = () => {
                     required 
                     />
               </Form.Group>
-              <Button type="button" className="btn btn-primary" onClick={() => {onSubmit()}}>
+              {/* onClick={() => {onSubmit()}} */}
+              {/* href="/Home" */}
+              <Button type="button" className="btn btn-primary" onClick={() => {onSubmit("Home")}}>
 			          Submit
 		          </Button>
           </Form>

@@ -13,12 +13,8 @@ function App() {
   return (
     <Router>
       <div className="App">  
-        {<NavRoutes/>}
-        {/* <Header/> */}
-        {<Sidebar/>}
-        {/* {<SignIn/>} */}
-        {/* {<PageOne/>} */}
-        {<DefaultPage Page = {<SignIn/>}/>}
+        <NavRoutes/>
+        <DefaultPage Page = {<SignIn/>}/>
         
       </div>
     </Router>

@@ -5,14 +5,14 @@ import {
   Routes
 } from 'react-router-dom';
 import Home from '../pages/Home';
+import SignIn from '../pages/SignIn';
 import PageOne from '../pages/PageOne';
 
 const NavRoutes = () => (
-  // <Router>
   <Routes>
-    <Route exact path="/home" component={Home} />
-    {/* Add more routes here */}
-  {/* </Router> */}
+    <Route exact path="/" component={SignIn} />
+    <Route exact path="/Home" component={Home} />
+    <Route exact path="/PageOne" component={PageOne} />
   </Routes>
 );
 

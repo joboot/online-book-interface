@@ -10,15 +10,10 @@ const DefaultPage = ({Page}) => {
     <div>
       <Container fluid>
           <Row >
-              <Col>
-              {/* <Header/> */}
-              </Col>
+            <Sidebar/>
           </Row>
           <Row>
-              {/* <Col md="auto"><Sidebar/></Col>
-              <Col md="auto"><PageOne/></Col> */}
-              {/* <Col md="auto"><SignIn/></Col> */}
-              <Col md="auto">{Page}</Col>
+            {Page}
           </Row>
       </Container>
     </div>
