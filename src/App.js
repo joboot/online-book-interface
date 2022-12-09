@@ -11,13 +11,18 @@ import NavRoutes from './components/NavRoutes';
 
 function App() {
   return (
-    <Router>
-      <div className="App">  
-        <NavRoutes/>
-        <DefaultPage Page = {<SignIn/>}/>
-        
-      </div>
-    </Router>
+    <div className="App"> 
+      <Router> 
+          {<NavRoutes/>}
+          {/* <Header/> */}
+          {<Sidebar/>}
+          {/* {<SignIn/>} */}
+          {/* {<PageOne/>} */}
+          {<DefaultPage Page = {<SignIn/>}/>}
+      </Router>
+
+      <Footer /> {/* Footer component */}
+    </div>
   );
 }
 
