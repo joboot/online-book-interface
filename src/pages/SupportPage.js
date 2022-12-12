@@ -5,25 +5,25 @@ import Card from 'react-bootstrap/Card';
 function SupportPage() {
   return (
     <div>
-        <img src="../images/support_image.jpg"></img>
+        <img src={require("../images/support_image.jpg")} height="300px" width="600px" align="center"></img>
         <Card>
-            <Card.Header as="h5">Featured</Card.Header>
+            <Card.Header as="h5">Help Feature</Card.Header>
             <Card.Body>
-            <Card.Title>Special title treatment</Card.Title>
+            <Card.Title>What is the Issue that you are Having?</Card.Title>
             <Card.Text>
-                With supporting text below as a natural lead-in to additional content.
+            Type out the problem that you are having here. Please explain in detail as we are Dumb Dumbs after all.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button variant="primary">Submit Ticket</Button>
             </Card.Body>
         </Card>
 
         <footer className='footer2'>
             <ul className='ul'>
                 <li>Contact Info:</li>
-                <li>(402) 804-2507</li>
-                <li>3716 Gordon Tunnel, 21683, Ralphfurt, Minnesota, United States</li>
-                <li>helpdesk@company.com</li>
-                <li>Office Hours: Monday-Friday 7-5</li>
+                <li>(402) 987-9876 </li>
+                <li>403 W. Laurel St. Michigan City, IN 46360 United States</li>
+                <li>dumbdumbhelpdesk@company.com</li>
+                <li>Office Hours: Monday-Friday 8-10</li>
             </ul>    
         </footer>
 
