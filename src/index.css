@@ -17,3 +17,14 @@
 .button {
     text-align: right;
 }
+
+.footer2 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    background: Black;
+    padding: .5em;
+    color: white; 
+}
