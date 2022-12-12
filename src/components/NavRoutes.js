@@ -14,6 +14,7 @@ import Ch1Page1 from '../pages/book/chapter1p1';
 import Ch1Page2 from '../pages/book/chapter1p2';
 import Ch2Page1 from '../pages/book/chapter2p1';
 import Ch2Page2 from '../pages/book/chapter2p2';
+import SupportPage from '../pages/SupportPage';
 
 const NavRoutes = () => (
   <Routes>
@@ -26,6 +27,7 @@ const NavRoutes = () => (
     <Route exact path="/chapter1p2" element={<DefaultPage Page = {<Ch1Page2/>}/>} />
     <Route exact path="/chapter2p1" element={<DefaultPage Page = {<Ch2Page1/>}/>} />
     <Route exact path="/chapter2p2" element={<DefaultPage Page = {<Ch2Page2/>}/>} />
+    <Route exact path="/SupportPage" element={<DefaultPage Page = {<SupportPage/>}/>} />
   </Routes>
 );
 
