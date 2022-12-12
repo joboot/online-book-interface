@@ -9,7 +9,15 @@ const Intro = () => {
             <h1>
                 Programming for Dumb Dumbs
             </h1>
-            <img src={require("../../images/duck.png")} width="500px" alt="Title Page with Rubber Duck"/>
+            <br/>
+            <h3>
+                Welcome to Programming 4 Dum Dums!
+            </h3>
+            <br/>
+            <p>
+                This book will teach you some basic programming techniques and 
+            </p>
+            <img src={require("../../images/duck.png")} width="500px" alt="Rubber Duck"/>
         </div>
     );
 };

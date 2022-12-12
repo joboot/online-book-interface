@@ -18,11 +18,11 @@ const Footer = () => {
               src= {require("../images/logoDuck.png")}
               width="30px"
             />
-            <span className="ml-4 h5 mb-0 font-weight-bold">Devwares</span>
+            <span className="ml-4 h5 mb-0 font-weight-bold">Program Dumb Dumbs</span>
           </a>
         </CDBBox>
         <CDBBox>
-          <small className="ml-2">&copy; Dumb Dumb's, 2022. All rights reserved.</small>
+          <small className="ml-2">&copy; Dumb Dumbs, 2022. All rights reserved.</small>
         </CDBBox>
         <CDBBox display="flex">
           <CDBBtn flat color="dark" className="p-2">

@@ -4,12 +4,14 @@ import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
 
 const Title = () => {
+    const navigate = useNavigate();
+
     return (
         <div>
             <h1>
                 Programming for Dumb Dumbs
             </h1>
-            <img src={require("../../images/duck.png")} width="500px" alt="Title Page with Rubber Duck"/>
+            <img src={require("../../images/duck.png")} width="1000px" alt="Title Page with Rubber Duck"/>
         </div>
     );
 };

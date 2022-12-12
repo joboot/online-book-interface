@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Button from "react-bootstrap/Button";
 import { useNavigate } from "react-router-dom";
 
-const Ch2Page2 = () => {
+const Ch1Page2 = () => {
     const navigate = useNavigate();
 
     return (
@@ -16,4 +16,4 @@ const Ch2Page2 = () => {
     );
 };
 
-export default Ch2Page2;
+export default Ch1Page2;
