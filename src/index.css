@@ -12,3 +12,7 @@
     min-height: 750;
     margin-left: 200;
 }
+
+.button {
+    text-align: right;
+}
