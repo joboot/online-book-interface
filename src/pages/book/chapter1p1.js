@@ -12,7 +12,7 @@ const Ch1Page1 = () => {
                 Chapter 1: Hello World
             </h1>
             <br/>
-            <h2>Programming Languages</h2>
+            <h2>Section 1: Programming Languages</h2>
             <h3>CHOOSE YOUR FIGHTER!!!!</h3>    
             <h4>Choosing a Programming Language</h4>
             <br/>
@@ -24,7 +24,7 @@ const Ch1Page1 = () => {
                 language called <b>C</b>.
             </p>
             <p>
-                You will need some way to run code in order to do anything
+                You will need some way to run code in order to do anything.
             </p>
             <img src={require("../../images/weapon.png")} width="500px" alt="Choose your weapon"/>
         </div>
