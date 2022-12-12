@@ -15,12 +15,18 @@ export const SidebarData = [
 },
 {
 	title: "Textbook",
-	path: "/book/title",
 	icon: <IoIcons.IoIosPaper />,
 	iconClosed: <RiIcons.RiArrowDownSFill />,
 	iconOpened: <RiIcons.RiArrowUpSFill />,
 
 	subNav: [
+	{
+		title: "Title",
+		path: "..pages/book/title",
+		icon: <IoIcons.IoIosPaper />,
+		cName: "sub-nav",
+	},
+		
 	{
 		title: "Intro",
 		path: "../pages/book/intro",

@@ -9,7 +9,7 @@ const Ch1Page2 = () => {
     return (
         <div>
             <h1>
-                Programming for Dumb Dumbs Page 1
+                Programming for Dumb Dumbs Page 2
             </h1>
             <img src={require("../../images/duck.png")} width="500px" alt="Title Page with Rubber Duck"/>
         </div>
