@@ -11,7 +11,7 @@ const DefaultPage = ({Page}) => {
           <Row >
             <Sidebar/>
           </Row>
-          <Row className='pageContent'>
+          <Row className='defaultPage'>
             <Col xs={2}></Col>
             <Col xs={8}>{Page}</Col>
           </Row>
