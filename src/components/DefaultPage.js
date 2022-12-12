@@ -12,7 +12,8 @@ const DefaultPage = ({Page}) => {
             <Sidebar/>
           </Row>
           <Row className='pageContent'>
-            {Page}
+            <Col xs={2}></Col>
+            <Col xs={8}>{Page}</Col>
           </Row>
           <Row className='footer'>
             <Footer /> 
