@@ -6,13 +6,9 @@ import { useNavigate } from "react-router-dom";
 const Intro = () => {
     return (
         <div>
-            <h1>
-                Programming for Dumb Dumbs
-            </h1>
-            <br/>
-            <h3>
+            <h2>
                 Welcome to Programming 4 Dumb Dumbs!
-            </h3>
+            </h2>
             <br/>
             <p>
                 This book will teach you some basic programming techniques and such.

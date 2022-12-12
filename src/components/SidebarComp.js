@@ -6,6 +6,7 @@ import * as AiIcons from "react-icons/ai";
 import { SidebarData } from "./SidebarData";
 import SubMenu from "./SubMenu.js";
 import { IconContext } from "react-icons/lib";
+import { Button } from "react-bootstrap";
 
 const Nav = styled.div`
 background: #15171c;
@@ -59,6 +60,11 @@ return (
 					color: "#1E90FF" }}
 		>
 			Programming for Dumb Dumb's
+
+			<Button type="button" className="btn btn-primary">
+				Log Out
+			</Button>
+			
 		</h1>
 		</Nav>
 		<SidebarNav sidebar={sidebar}>
