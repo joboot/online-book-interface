@@ -22,20 +22,20 @@ export const SidebarData = [
 	subNav: [
 	{
 		title: "Title",
-		path: "..pages/book/title",
+		path: "/title",
 		icon: <IoIcons.IoIosPaper />,
 		cName: "sub-nav",
 	},
 		
 	{
 		title: "Intro",
-		path: "../pages/book/intro",
+		path: "/intro",
 		icon: <IoIcons.IoIosPaper />,
 		cName: "sub-nav",
 	},
 	{
 		title: "Chapter 1: Hello World",
-		path: "../pages/book/chapter1p1",
+		path: "/chapter1p1",
 		icon: <IoIcons.IoIosPaper />,
 		icon: <IoIcons.IoIosPaper />,
 		iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -45,13 +45,13 @@ export const SidebarData = [
 		subNav: [
 			{
 				title: "Being able to code",
-				path: "../pages/book/chapter1p1",
+				path: "/chapter1p1",
 				icon: <IoIcons.IoIosPaper />,
 				cName: "sub-nav",
 			},
 			{
 				title: "\"Hello World\"",
-				path: "../pages/book/chapter1p2",
+				path: "/chapter1p2",
 				icon: <IoIcons.IoIosPaper />,
 				cName: "sub-nav",
 			}
@@ -59,7 +59,7 @@ export const SidebarData = [
 	},
 	{
 		title: "Chapter 2: Tips and Tricks",
-		path: "../pages/book/chapter2p1",
+		path: "/chapter2p1",
 		icon: <IoIcons.IoIosPaper />,
 	},
 	],
