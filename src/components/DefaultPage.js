@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 // import Header from './TopBarComp'
 import Sidebar from './SidebarComp'
-import PageOne from '../pages/PageOne'
-import SignIn from '../pages/SignIn'
+import Footer from './FooterComp';
 
 const DefaultPage = ({Page}) => {
   return (
@@ -12,8 +11,11 @@ const DefaultPage = ({Page}) => {
           <Row >
             <Sidebar/>
           </Row>
-          <Row>
+          <Row className='pageContent'>
             {Page}
+          </Row>
+          <Row className='footer'>
+            <Footer /> 
           </Row>
       </Container>
     </div>
