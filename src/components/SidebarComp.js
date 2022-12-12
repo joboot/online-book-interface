@@ -61,11 +61,12 @@ return (
 		>
 			Programming for Dumb Dumb's
 
-			<Button type="button" className="btn btn-primary">
-				Log Out
-			</Button>
-			
 		</h1>
+
+		<div class="button">
+			<button type="button" class="btn btn-primary">Log Out</button>
+		</div>
+
 		</Nav>
 		<SidebarNav sidebar={sidebar}>
 		<SidebarWrap>
