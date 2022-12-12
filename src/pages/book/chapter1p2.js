@@ -8,10 +8,14 @@ const Ch1Page2 = () => {
 
     return (
         <div>
-            <h1>
-                Programming for Dumb Dumbs Page 2
-            </h1>
-            <img src={require("../../images/duck.png")} width="500px" alt="Title Page with Rubber Duck"/>
+            <h2>Section 2: "Hello World"</h2>
+            <br/>   
+            <h4>Dumb Dumb's First Program</h4>
+            <br/>
+            <p>
+                No matter what language you are using, your first program will probably be "Hello World"
+            </p>
+            <img src={require("../../images/helloWorld.png")} width="500px" alt="Hello World Meme"/>
         </div>
     );
 };
