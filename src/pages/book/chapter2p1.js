@@ -51,6 +51,11 @@ const Ch2Page1 = () => {
                 and make sure to group related code together when possible.
             </p>
             <img src={require("../../images/itWorks.png")} width="200px" alt="Degugging Meme 5"/>
+            <br/>
+            <br/>
+            <Button  onClick={() => {navigate('../chapter2p2')}}>
+                Continue to Chapter 2, Section 2: Rubber Duck Technique
+            </Button>
         </div>
     );
 };

@@ -29,6 +29,11 @@ const Ch1Page1 = () => {
                 see how they work.
             </p>
             <img src={require("../../images/weapon.png")} width="400px" alt="Choose your weapon"/>
+            <br/>
+            <br/>
+            <Button  onClick={() => {navigate('../chapter1p2')}}>
+                Continue to Chapter 1, Section 2: "Hello World"
+            </Button>
         </div>
     );
 };
