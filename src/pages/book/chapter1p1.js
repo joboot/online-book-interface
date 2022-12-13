@@ -24,7 +24,7 @@ const Ch1Page1 = () => {
                 language called <b>C</b>.
             </p>
             <p>
-                You will need some way to run code in order to do anything. We recommend using <a href="replit.com">replit.com</a>, 
+                You will need some way to run code in order to do anything. We recommend using <a href="https://replit.com/">replit.com</a>, 
                 an online coding site were you can code in multiple languages including these three and
                 see how they work.
             </p>
