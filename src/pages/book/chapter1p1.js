@@ -24,9 +24,12 @@ const Ch1Page1 = () => {
                 language called <b>C</b>.
             </p>
             <p>
-                You will need some way to run code in order to do anything.
+                You will need some way to run code in order to do anything. We recommend using 
+                <a href="replit.com">replit.com</a>, 
+                an online coding site were you can code in multiple languages including these three and
+                see how they work.
             </p>
-            <img src={require("../../images/weapon.png")} width="500px" alt="Choose your weapon"/>
+            <img src={require("../../images/weapon.png")} width="400px" alt="Choose your weapon"/>
         </div>
     );
 };

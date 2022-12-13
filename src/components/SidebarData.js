@@ -37,7 +37,6 @@ export const SidebarData = [
 		title: "Chapter 1: Hello World",
 		path: "/chapter1p1",
 		icon: <IoIcons.IoIosPaper />,
-		icon: <IoIcons.IoIosPaper />,
 		iconClosed: <RiIcons.RiArrowDownSFill />,
 		iconOpened: <RiIcons.RiArrowUpSFill />,
 		cName: "sub-nav",
@@ -61,6 +60,23 @@ export const SidebarData = [
 		title: "Chapter 2: Tips and Tricks",
 		path: "/chapter2p1",
 		icon: <IoIcons.IoIosPaper />,
+		iconClosed: <RiIcons.RiArrowDownSFill />,
+		iconOpened: <RiIcons.RiArrowUpSFill />,
+
+		subNav: [
+			{
+				title: "Rubber Duck Technique",
+				path: "/chapter1p1",
+				icon: <IoIcons.IoIosPaper />,
+				cName: "sub-nav",
+			},
+			{
+				title: "Semicolons and Other Problems",
+				path: "/chapter1p2",
+				icon: <IoIcons.IoIosPaper />,
+				cName: "sub-nav",
+			}
+		]
 	},
 	],
 },
