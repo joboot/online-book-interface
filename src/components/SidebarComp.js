@@ -43,44 +43,44 @@ width: 100%;
 `;
 
 const Sidebar = () => {
-const [sidebar, setSidebar] = useState(false);
+	const [sidebar, setSidebar] = useState(false);
 
-const showSidebar = () => setSidebar(!sidebar);
+	const showSidebar = () => setSidebar(!sidebar);
 
-return (
-	<>
-	<IconContext.Provider value={{ color: "#fff" }}>
-		<Nav>
-		<NavIcon to="#">
-			<FaIcons.FaBars onClick={showSidebar} />
-		</NavIcon>
-		<h1
-			style={{ textAlign: "center",
-					marginLeft: "200px",
-					color: "#1E90FF" }}
-		>
-			Programming for Dumb Dumb's	
-
-		</h1>
-
-		<div class="button">
-			<button type="button" class="btn btn-primary">Log Out</button>
-		</div>
-
-		</Nav>
-		<SidebarNav sidebar={sidebar}>
-		<SidebarWrap>
+	return (
+		<>
+		<IconContext.Provider value={{ color: "#fff" }}>
+			<Nav>
 			<NavIcon to="#">
-			<AiIcons.AiOutlineClose onClick={showSidebar} />
+				<FaIcons.FaBars onClick={showSidebar} />
 			</NavIcon>
-			{SidebarData.map((item, index) => {
-			return <SubMenu item={item} key={index} />;
-			})}
-		</SidebarWrap>
-		</SidebarNav>
-	</IconContext.Provider>
-	</>
-);
+			<h1
+				style={{ textAlign: "center",
+						marginLeft: "200px",
+						color: "#1E90FF" }}
+			>
+				Programming for Dumb Dumb's	
+
+			</h1>
+
+			<div class="button">
+				<button type="button" class="btn btn-primary">Log Out</button>
+			</div>
+
+			</Nav>
+			<SidebarNav sidebar={sidebar}>
+				<SidebarWrap>
+					<NavIcon to="#">
+						<AiIcons.AiOutlineClose onClick={showSidebar} />
+					</NavIcon>
+					{SidebarData.map((item, index) => {
+					return <SubMenu item={item} key={index} />;
+					})}
+				</SidebarWrap>
+			</SidebarNav>
+		</IconContext.Provider>
+		</>
+	);
 };
 
 export default Sidebar;
