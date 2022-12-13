@@ -7,6 +7,8 @@ import { SidebarData } from "./SidebarData";
 import SubMenu from "./SubMenu.js";
 import { IconContext } from "react-icons/lib";
 import { Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
+
 
 const Nav = styled.div`
 background: #15171c;
@@ -43,6 +45,8 @@ width: 100%;
 `;
 
 const Sidebar = () => {
+	const navigate = useNavigate();
+
 	const [sidebar, setSidebar] = useState(false);
 
 	const showSidebar = () => setSidebar(!sidebar);
@@ -63,10 +67,7 @@ const Sidebar = () => {
 
 				</h1>
 
-				
-				<div class="button">
-					<button type="button" class="btn btn-primary">Log Out</button>
-				</div>
+				<Button className="button" type="button" class="btn btn-primary" onClick={() => {navigate('../SignIn')}}>Log Out</Button>
 			</Nav>
 			<SidebarNav sidebar={sidebar}>
 				<SidebarWrap>

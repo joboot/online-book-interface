@@ -14,12 +14,16 @@
     width: 100%; */
 }
 
+.pageContent {
+    padding-top: 50px;
+}
+
 .button {
     margin-left: 700px;
 }
 
 .footer2 {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;

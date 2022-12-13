@@ -64,7 +64,7 @@ const SignIn = () => {
             </Form.Group>
             {/* onClick={() => {onSubmit()}} */}
             {/* href="/Home" */}
-            <Button type="button" className="btn btn-primary" onClick={() => {onSubmit("Home")}}>
+            <Button type="button" className="btn btn-primary" onClick={() => {onSubmit("../Home")}}>
               Submit
             </Button>
         </Form>
