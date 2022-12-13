@@ -22,7 +22,7 @@ const Ch2Page1 = () => {
             </p>
             <img src={require("../../images/whoWin.png")} width="200px" alt="Degugging Meme 2"/>
             <p>
-                There will be various types of brackets (<b>{{}}</b>, <b>[]</b>), as well as parentheses <b>()</b> that you will use
+                There will be various types of brackets (<b>{'\u007b\u007d'}</b>,<b> {'\u005b\u005d'}</b>), as well as parentheses <b>()</b> that you will use
                 in any coding language, and it is always important to make sure each open bracket 
             </p>
             <img src={require("../../images/semicolon.png")} width="200px" alt="Degugging Meme 3"/>
