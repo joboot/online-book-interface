@@ -6,12 +6,12 @@ import Footer from './FooterComp';
 
 const DefaultPage = ({Page}) => {
   return (
-    <div>
+    <div className='defaultPage'>
       <Container fluid>
           <Row >
             <Sidebar/>
           </Row>
-          <Row className='defaultPage'>
+          <Row>
             <Col xs={2}></Col>
             <Col xs={8}>{Page}</Col>
           </Row>
