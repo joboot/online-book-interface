@@ -23,9 +23,12 @@ const Ch2Page1 = () => {
             <img src={require("../../images/whoWin.png")} width="200px" alt="Degugging Meme 2"/>
             <p>
                 There will be various types of brackets (<b>{'\u007b\u007d'}</b>,<b> {'\u005b\u005d'}</b>), as well as parentheses <b>()</b> that you will use
-                in any coding language, and it is always important to make sure each open bracket 
+                in any coding language, and it is always important to make sure each open bracket or grouping symbol has an appropriate
+                closing bracket or symbol and that the beginning and ending of each grouping is in the exact place it needs to be.
+                Some coding environments will highlight the closing symbol that corresponds with a given opening symbol upon hovering
+                or clicking it, and vice versa.
             </p>
-            <img src={require("../../images/semicolon.png")} width="200px" alt="Degugging Meme 3"/>
+            <img src={require("../../images/semicolon.png")} width="400px" height="250px" alt="Degugging Meme 3"/>
             <br/>
             <p>
                 
