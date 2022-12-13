@@ -51,22 +51,22 @@ const Sidebar = () => {
 		<>
 		<IconContext.Provider value={{ color: "#fff" }}>
 			<Nav>
-			<NavIcon to="#">
-				<FaIcons.FaBars onClick={showSidebar} />
-			</NavIcon>
-			<h1
-				style={{ textAlign: "center",
-						marginLeft: "200px",
-						color: "#1E90FF" }}
-			>
-				Programming for Dumb Dumb's	
+				<NavIcon to="#">
+					<FaIcons.FaBars onClick={showSidebar} />
+				</NavIcon>
+				<h1
+					style={{ textAlign: "center",
+							marginLeft: "200px",
+							color: "#1E90FF" }}
+				>
+					Programming for Dumb Dumb's	
 
-			</h1>
+				</h1>
 
-			<div class="button">
-				<button type="button" class="btn btn-primary">Log Out</button>
-			</div>
-
+				
+				<div class="button">
+					<button type="button" class="btn btn-primary">Log Out</button>
+				</div>
 			</Nav>
 			<SidebarNav sidebar={sidebar}>
 				<SidebarWrap>
@@ -78,7 +78,9 @@ const Sidebar = () => {
 					})}
 				</SidebarWrap>
 			</SidebarNav>
+			
 		</IconContext.Provider>
+		
 		</>
 	);
 };
