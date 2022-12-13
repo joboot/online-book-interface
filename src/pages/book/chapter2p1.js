@@ -8,7 +8,6 @@ const Ch2Page1 = () => {
 
     return (
         <div>
-            <br/>
             <h1>Chapter 2: Tips and Tricks</h1>
             <br/>
             <h2>Section 1: Debugging 101</h2>

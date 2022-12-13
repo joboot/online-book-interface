@@ -12,13 +12,16 @@ const Ch2Page2 = () => {
             <br/>   
             <h4>A Fun yet Effective Way to Find Coding Mistakes</h4>
             <br/>
+            <p>
+                Duck
+            </p>
             <img src={require("../../images/duckLaptop.png")} width="200px" alt="Duck on Laptop"/>
             <p>
-                
+                Duck
             </p>
             <img src={require("../../images/explain.png")} width="200px" alt="Explain it to the Duck"/>
             <p>
-                
+                Goose
             </p>
             <img src={require("../../images/duck.png")} width="200px" alt="Title"/>
             <br/>
