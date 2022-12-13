@@ -21,6 +21,12 @@ const Ch2Page2 = () => {
                 
             </p>
             <img src={require("../../images/duck.png")} width="200px" alt="Title"/>
+            <br/>
+            <br/>
+            <Button variant="dark" onClick={() => {navigate('../chapter2p1')}}>
+                Previous page: Chapter 2, Section 1: Debugging 101
+            </Button>
+            <br/>
         </div>
     );
 };
