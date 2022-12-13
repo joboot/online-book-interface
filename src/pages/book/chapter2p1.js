@@ -8,6 +8,7 @@ const Ch2Page1 = () => {
 
     return (
         <div>
+            <br/>
             <h1>Chapter 2: Tips and Tricks</h1>
             <br/>
             <h2>Section 1: Debugging 101</h2>
@@ -51,6 +52,11 @@ const Ch2Page1 = () => {
                 and make sure to group related code together when possible.
             </p>
             <img src={require("../../images/itWorks.png")} width="200px" alt="Degugging Meme 5"/>
+            <br/>
+            <br/>
+            <Button variant="dark" onClick={() => {navigate('../chapter1p2')}}>
+                Previous page: Chapter 1, Section 2: "Hello World"
+            </Button>
             <br/>
             <br/>
             <Button  onClick={() => {navigate('../chapter2p2')}}>

@@ -40,6 +40,11 @@ const Ch1Page2 = () => {
             <img src={require("../../images/helloWorld.png")} width="200px" alt="Hello World Meme"/>
             <br/>
             <br/>
+            <Button variant="dark" onClick={() => {navigate('../chapter1p1')}}>
+                Previous page: Chapter 1, Section 1: Programming Languages
+            </Button>
+            <br/>
+            <br/>
             <Button  onClick={() => {navigate('../chapter2p1')}}>
                 Continue to Chapter 2, Section 1: Debugging 101
             </Button>
