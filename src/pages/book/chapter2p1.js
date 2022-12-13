@@ -14,21 +14,27 @@ const Ch2Page1 = () => {
             <br/>
             <h4>Semicolons, Brackets, and Other Problems</h4>
             <br/>
-            <img src={require("../../images/why.png")} width="200px" alt="Degugging Meme 1"/>
+            <img src={require("../../images/debug.png")} width="200px" alt="Degugging Meme 1"/>
+            <br/>
+            <p>
+                As you code, errors will inevitably show up in your code, 
+                so here are some things to watch out for.
+            </p>
+            <img src={require("../../images/whoWin.png")} width="200px" alt="Degugging Meme 2"/>
+            <p>
+                There will be various types of brackets (<b>{{}}</b>, <b>[]</b>), that you will use
+                in any coding language, and it is always important to make sure each grouping
+            </p>
+            <img src={require("../../images/semicolon.png")} width="200px" alt="Degugging Meme 3"/>
             <br/>
             <p>
                 
             </p>
-            <img src={require("../../images/whoWin.png")} width="300px" alt="Degugging Meme 2"/>
-            <br/>
+            <img src={require("../../images/why.png")} width="200px" alt="Degugging Meme 4"/>
             <p>
                 
             </p>
-            <img src={require("../../images/debug.png")} width="200px" alt="Degugging Meme 3"/>
-            <p>
-                
-            </p>
-            <img src={require("../../images/itWorks.png")} width="200px" alt="Degugging Meme 4"/>
+            <img src={require("../../images/itWorks.png")} width="200px" alt="Degugging Meme 5"/>
         </div>
     );
 };

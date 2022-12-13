@@ -10,17 +10,17 @@ const Ch2Page2 = () => {
         <div>
             <h2>Section 2: The Rubber Duck Technique</h2>
             <br/>   
-            <h4>A fun way to fix coding mistakes.</h4>
+            <h4>A Fun yet Effective Way to Find Coding Mistakes</h4>
             <br/>
-            <img src={require("../../images/duckLaptop.png")} width="200px" alt="Degugging Meme 1"/>
+            <img src={require("../../images/duckLaptop.png")} width="200px" alt="Duck on Laptop"/>
             <p>
                 
             </p>
-            <img src={require("../../images/explain.png")} width="200px" alt="Degugging Meme 1"/>
+            <img src={require("../../images/explain.png")} width="200px" alt="Explain it to the Duck"/>
             <p>
                 
             </p>
-            <img src={require("../../images/duck.png")} width="200px" alt="Degugging Meme 1"/>
+            <img src={require("../../images/duck.png")} width="200px" alt="Title"/>
         </div>
     );
 };
