@@ -8,10 +8,19 @@ const Ch2Page2 = () => {
 
     return (
         <div>
-            <h1>
-                Programming for Dumb Dumbs Page 1
-            </h1>
-            <img src={require("../../images/duck.png")} width="500px" alt="Title Page with Rubber Duck"/>
+            <h2>Section 2: The Rubber Duck Technique</h2>
+            <br/>   
+            <h4>A fun way to fix coding mistakes.</h4>
+            <br/>
+            <img src={require("../../images/duckLaptop.png")} width="200px" alt="Degugging Meme 1"/>
+            <p>
+                
+            </p>
+            <img src={require("../../images/explain.png")} width="200px" alt="Degugging Meme 1"/>
+            <p>
+                
+            </p>
+            <img src={require("../../images/duck.png")} width="200px" alt="Degugging Meme 1"/>
         </div>
     );
 };
