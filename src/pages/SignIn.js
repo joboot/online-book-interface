@@ -1,6 +1,11 @@
 import React, { useState, useRef, useEffect} from 'react'
 import { Form, Button, Container } from 'react-bootstrap'
 import { useNavigate } from "react-router-dom";
+import { IconContext } from "react-icons/lib";
+import Navbar from 'react-bootstrap/Navbar';
+import Footer from '../components/FooterComp';
+
+
 
 const SignIn = () => {
   const userRef = useRef();
@@ -37,7 +42,19 @@ const SignIn = () => {
 
   return (
     <div>
-      <Container>
+      <Navbar className='signInTopBar'>
+        <h1
+        style={{ textAlign: "center",
+            marginLeft: "200px",
+            color: "#1E90FF" }}
+      >
+        Programming for Dumb Dumb's	
+
+      </h1>
+      </Navbar>
+      <Container className='pageContent'>
+      
+
         <p ref={errRef} className={errMsg ? "errmsg" : "offscreen"} aria-live="assertive"> {errMsg} </p>
         <h1>Sign in</h1>
         <Form>
@@ -68,7 +85,13 @@ const SignIn = () => {
               Submit
             </Button>
         </Form>
+
+
       </Container>
+      <div className='footer'>
+        <Footer />
+      </div>
+       
 
     </div>
   )

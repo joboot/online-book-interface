@@ -32,3 +32,10 @@
     padding: .5em;
     color: white; 
 }
+.signInTopBar {
+    background-color: #15171c;
+    height: 80px;
+    display: flex;
+justify-content: flex-start;
+align-items: center;;
+}
