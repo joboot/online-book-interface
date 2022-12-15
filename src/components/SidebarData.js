@@ -5,13 +5,6 @@ import * as RiIcons from "react-icons/ri";
 
 export const SidebarData = [
 {
-	title: "Home",
-	path: "/home",
-	icon: <AiIcons.AiFillHome />,
-	iconClosed: <RiIcons.RiArrowDownSFill />,
-	iconOpened: <RiIcons.RiArrowUpSFill />,
-},
-{
 	title: "Textbook Intro",
 		path: "/intro",
 		icon: <IoIcons.IoIosPaper />,

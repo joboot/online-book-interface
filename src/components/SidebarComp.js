@@ -63,7 +63,7 @@ const Sidebar = () => {
 							marginLeft: "200px",
 							color: "#1E90FF" }}
 				>
-					Programming for Dumb Dumb's	
+					Programming for Dumb Dumbs	
 
 				</h1>
 

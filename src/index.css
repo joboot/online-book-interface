@@ -91,3 +91,8 @@ align-items: center;;
     color: red;
     margin-left: 0.25rem;
 }
+
+.pictureRow {
+    width: 600px;
+    align-items: center;
+}
