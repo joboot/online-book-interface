@@ -4,56 +4,63 @@ import * as IoIcons from "react-icons/io";
 import * as RiIcons from "react-icons/ri";
 
 export const SidebarData = [
-{
-	title: "Textbook Intro",
-		path: "/intro",
-		icon: <IoIcons.IoIosPaper />,
-},
-{
-	title: "Chapter 1: Hello World",
-	icon: <IoIcons.IoIosPaper />,
-	iconClosed: <RiIcons.RiArrowDownSFill />,
-	iconOpened: <RiIcons.RiArrowUpSFill />,
-	subNav: [
 	{
-		title: "Languages",
-		path: "/chapter1p1",
-		icon: <IoIcons.IoIosPaper />,
-		cName: "sub-nav",
+		title: "Home",
+		path: "/home",
+		icon: <AiIcons.AiFillHome />,
+		iconClosed: <RiIcons.RiArrowDownSFill />,
+		iconOpened: <RiIcons.RiArrowUpSFill />,
 	},
-		
 	{
-		title: "\"Hello World\" Program",
-		path: "/chapter1p2",
-		icon: <IoIcons.IoIosPaper />,
-		cName: "sub-nav",
+		title: "Textbook Intro",
+			path: "/intro",
+			icon: <IoIcons.IoIosPaper />,
 	},
-	]
-},
-{
-	title: "Chapter 2: Tips and Tricks",
-	icon: <IoIcons.IoIosPaper />,
-	iconClosed: <RiIcons.RiArrowDownSFill />,
-	iconOpened: <RiIcons.RiArrowUpSFill />,
-
-	subNav: [
+	{
+		title: "Chapter 1: Hello World",
+		icon: <IoIcons.IoIosPaper />,
+		iconClosed: <RiIcons.RiArrowDownSFill />,
+		iconOpened: <RiIcons.RiArrowUpSFill />,
+		subNav: [
 		{
-			title: "Debugging 101",
-			path: "/chapter2p1",
+			title: "Languages",
+			path: "/chapter1p1",
 			icon: <IoIcons.IoIosPaper />,
 			cName: "sub-nav",
 		},
+			
 		{
-			title: "Rubber Duck Technique",
-			path: "/chapter2p2",
+			title: "\"Hello World\" Program",
+			path: "/chapter1p2",
 			icon: <IoIcons.IoIosPaper />,
 			cName: "sub-nav",
-		}
-	]
-},
-{
-	title: "Support",
-	path: "/SupportPage",
-	icon: <IoIcons.IoMdHelpCircle />,
-},
+		},
+		]
+	},
+	{
+		title: "Chapter 2: Tips and Tricks",
+		icon: <IoIcons.IoIosPaper />,
+		iconClosed: <RiIcons.RiArrowDownSFill />,
+		iconOpened: <RiIcons.RiArrowUpSFill />,
+
+		subNav: [
+			{
+				title: "Debugging 101",
+				path: "/chapter2p1",
+				icon: <IoIcons.IoIosPaper />,
+				cName: "sub-nav",
+			},
+			{
+				title: "Rubber Duck Technique",
+				path: "/chapter2p2",
+				icon: <IoIcons.IoIosPaper />,
+				cName: "sub-nav",
+			}
+		]
+	},
+	{
+		title: "Support",
+		path: "/SupportPage",
+		icon: <IoIcons.IoMdHelpCircle />,
+	},
 ];
