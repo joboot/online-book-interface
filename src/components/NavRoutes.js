@@ -1,11 +1,11 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
   Route,
   Routes
 } from 'react-router-dom';
 import Home from '../pages/Home';
 import SignIn from '../pages/SignIn';
+import SignUp from '../pages/SignUp';
 import PageOne from '../pages/PageOne';
 import DefaultPage from './DefaultPage';
 import Title from '../pages/book/title'
@@ -20,6 +20,7 @@ const NavRoutes = () => (
   <Routes>
     <Route exact path="/" element={<SignIn/>} />
     <Route exact path="/SignIn" element={<SignIn/>} />
+    <Route exact path="/SignUp" element={<SignUp/>} />
     <Route exact path="/Home" element={<DefaultPage Page = {<Home/>}/>} />
     <Route exact path="/PageOne" element={<DefaultPage Page = {<PageOne/>}/>} />
     <Route exact path="/title" element={<DefaultPage Page = {<Title/>}/>} />

@@ -1,7 +1,5 @@
 import './index.css';
-import Sidebar from './components/SidebarComp';
-import SignIn from './pages/SignIn';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import React from "react";
 import NavRoutes from './components/NavRoutes';
 

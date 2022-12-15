@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 function SupportPage() {
   return (
     <div>
-        <img src={require("../images/support_image.jpg")} height="300px" width="600px" align="center"></img>
+        <img src={require("../images/support_image.jpg")} height="300px" width="600px" align="center" alt='Helpdesk woman'></img>
         <Card>
             <Card.Header as="h5">Help Feature</Card.Header>
             <Card.Body>
