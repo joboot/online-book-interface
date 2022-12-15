@@ -6,7 +6,6 @@ import {
 import Home from '../pages/Home';
 import SignIn from '../pages/SignIn';
 import SignUp from '../pages/SignUp';
-import PageOne from '../pages/PageOne';
 import DefaultPage from './DefaultPage';
 import Title from '../pages/book/title'
 import Intro from '../pages/book/intro'
@@ -19,10 +18,9 @@ import SupportPage from '../pages/SupportPage';
 const NavRoutes = () => (
   <Routes>
     <Route exact path="/" element={<SignIn/>} />
-    <Route exact path="/Home" element={<DefaultPage Page = {<Home/>}/>} />
     <Route exact path="/SignIn" element={<SignIn/>} />
     <Route exact path="/SignUp" element={<SignUp/>} />
-    <Route exact path="/PageOne" element={<DefaultPage Page = {<PageOne/>}/>} />
+    <Route exact path="/Home" element={<DefaultPage Page = {<Home/>}/>} />
     <Route exact path="/title" element={<DefaultPage Page = {<Title/>}/>} />
     <Route exact path="/intro" element={<DefaultPage Page = {<Intro/>}/>} />
     <Route exact path="/chapter1p1" element={<DefaultPage Page = {<Ch1Page1/>}/>} />
