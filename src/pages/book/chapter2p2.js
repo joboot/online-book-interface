@@ -12,18 +12,22 @@ const Ch2Page2 = () => {
             <br/>   
             <h4>A Fun yet Effective Way to Find Coding Mistakes</h4>
             <br/>
+            <img src={require("../../images/duckLaptop.png")} width="300px" alt="Duck on Laptop"/>
+            <br/>
+            <br/>
             <p>
-                Duck
+                Sometimes it can be difficult to find exactly where the problem is in your code when
+                it isn't working. One strategy to find elusive errors is known as <b>Rubber Duck Programming</b>.
+                If your code isn't working, just try explaining each line of your code to a rubber duck!
             </p>
-            <img src={require("../../images/duckLaptop.png")} width="200px" alt="Duck on Laptop"/>
+            <img src={require("../../images/explain.png")} width="300px" alt="Explain it to the Duck"/>
+            <br/>
+            <br/>
             <p>
-                Duck
+                You might be thinking, how can a rubber duck fix my code? Well, the trick is, if you explain
+                each line of code to the rubber duck, you will find the error as you explain the code.
             </p>
-            <img src={require("../../images/explain.png")} width="200px" alt="Explain it to the Duck"/>
-            <p>
-                Goose
-            </p>
-            <img src={require("../../images/duck.png")} width="200px" alt="Title"/>
+            <img src={require("../../images/duck.png")} width="300px" alt="Title"/>
             <br/>
             <br/>
             <Button variant="dark" onClick={() => {navigate('../chapter2p1')}}>

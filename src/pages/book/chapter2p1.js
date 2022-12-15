@@ -13,13 +13,16 @@ const Ch2Page1 = () => {
             <h2>Section 1: Debugging 101</h2>
             <br/>
             <h4>Semicolons, Brackets, and Other Problems</h4>
-            <img src={require("../../images/debug.png")} width="200px" alt="Degugging Meme 1"/>
+            <img src={require("../../images/debug.png")} width="300px" alt="Degugging Meme 1"/>
+            <br/>
             <br/>
             <p>
                 As you code, errors will inevitably show up in your code, 
                 so here are some things to watch out for.
             </p>
-            <img src={require("../../images/whoWin.png")} width="200px" alt="Degugging Meme 2"/>
+            <img src={require("../../images/whoWin.png")} width="300px" alt="Degugging Meme 2"/>
+            <br/>
+            <br/>
             <p>
                 There will be various types of brackets (<b>{'\u007b\u007d'}</b>,<b> {'\u005b\u005d'}</b>), as well as parentheses <b>()</b> that you will use
                 in any coding language, and it is always important to make sure each open bracket or grouping symbol has an appropriate
@@ -28,6 +31,7 @@ const Ch2Page1 = () => {
                 or clicking it, and vice versa.
             </p>
             <img src={require("../../images/semicolon.png")} width="400px" height="250px" alt="Degugging Meme 3"/>
+            <br/>
             <br/>
             <p>
                 In most languages, every individual line that is not the start of a larger structure
@@ -39,7 +43,9 @@ const Ch2Page1 = () => {
                 <b>NOTE:</b> Python <b>DOES NOT</b> use semicolons, and generally uses less grouping symbols, but has other
                 stipulations in its syntax.
             </p>
-            <img src={require("../../images/why.png")} width="200px" alt="Degugging Meme 4"/>
+            <img src={require("../../images/why.png")} width="300px" alt="Degugging Meme 4"/>
+            <br/>
+            <br/>
             <p>
                 It is important to group and indent your code correctly to make readable code that is easier to debug.
                 Always indent code within a grouping structure one tab further than code outside of said grouping structure.
@@ -50,7 +56,7 @@ const Ch2Page1 = () => {
                 It is also recommended to leave an empty line between any lines or blocks of code that are unrelated to each other
                 and make sure to group related code together when possible.
             </p>
-            <img src={require("../../images/itWorks.png")} width="200px" alt="Degugging Meme 5"/>
+            <img src={require("../../images/itWorks.png")} width="300px" alt="Degugging Meme 5"/>
             <br/>
             <br/>
             <Button variant="dark" onClick={() => {navigate('../chapter1p2')}}>
